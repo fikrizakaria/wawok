@@ -451,7 +451,7 @@ form button{
 }
 #Crunchy .item1 {
     width: 200px;
-    height: 300px;
+    height: 310px;
 }
 #Crispy_Sandwich .item1 {
     width: 200px;
@@ -466,7 +466,7 @@ form button{
     height: 200px;
 }
 
-#spec .item1 {
+#Speciaux .item1 {
     width: 200px;
     height: 300px;
 }
@@ -489,6 +489,22 @@ form button{
 #Assortissements .item1 {
     width: 200px;
     height: 470px;
+}
+#Woks .item1 {
+    width: 200px;
+    height: 320px;
+}
+#riz .item1 {
+    width: 200px;
+    height: 280px;
+}
+#curry .item1 {
+    width: 200px;
+    height: 260px;
+}
+#Boissons .item1 {
+    width: 200px;
+    height: 260px;
 }
 #Assortissements .item1 img,#Nigiri .item1 img{
     height: auto;
