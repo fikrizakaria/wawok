@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WA'WOK</title>
+  <link rel="shortcut icon" href="wowok.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="contact1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="versionmobile">
+	    <div class="ham" onclick="toggle1()">	
+		  <div class="div6 rot1"></div>
+          <div class="div6 hide"></div>
+          <div class="div6 rot2"></div>
+        </div>
+        <img style="margin-left:20%;width:20%" src="wawok.svg">
+        <div style="width: 40px;"></div>
+		<img class="ll" src="wowok.svg">
+	</div>
+	<div id="sidemenu2" class="div5">
+    	<a href="index.html" style="margin:90px 0px 0px 0px;" >HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+	<header id="cont">
+	<nav>
+		<div  class="div1">
+			<a href="index.html">HOME</a>
+			<a href="menu.html">MENU</a>
+			<a href="contact.html">CONTACT</a>
+		</div>
+		<div class="div3">
+			<p style="color:#AD0000;">WA'</p>
+			<img src="wowok.svg">
+			<p >WOK</p>
+		</div>
+		<div class="div2">
+			<a href="https://web.facebook.com/wawokmarrakech/" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/wawokmarrakech/?hl=fr" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</div>
+	</nav>
+	<div class="div4">
+		<h1 ><span id="wok">Wa'<span style="color:white">Wok</span> </span> <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp ASIAN <span style="color:#AD0000;">&nbsp CUISINE</span></h1>
+	</div>
+	
+	</header>
+	<div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT</span>
+            <span>US</span>
+          </div>
+          <div class="app-contact">CONTACT INFO : 0661xxxxx</div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" >
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT NO">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">CANCEL</button>
+              <button class="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+	<footer>
+        <div class="fcol">
+            <h1> <img src="request.svg"> A PROPOS DE NOUS</h1>
+            <p>WA'WOK MARRAKECH EST UN RESTAURANT DE LUXE QUI PRESENTE UN PRODUIT DE QUALITE AINSI  AINSI QUE UN SERVICE...</p>
+        </div>
+        <div class="fcol">
+            <h1> <img src="follower.svg">  SUIVEZ NOUS</h1>
+            <a href="https://web.facebook.com/wawokmarrakech/" target="_blank"> <img src="facebook.svg"> FACEBOOK </a>
+            <a href="https://www.instagram.com/wawokmarrakech/?hl=fr" target="_blank" ><img src="instagram.svg"> INSTAGRAM</a>
+            <a href="" target="_blank" ><img src="twitter.svg"> TWITTER</a>
+        </div>
+        <div class="fcol">
+            <h1> <img src="information.svg"> CONTACTEZ NOUS</h1>
+            <p> <img src="telephone.svg">+212 5 24 33 21 82</p>
+            <p> <img src="email.svg">wawok.marrakech@gmail.com</p>
+        </div>
+        <div class="fcol">
+            <h1><img src="openday.svg"> JOURS D'OUVERTURE</h1>
+            <p>7JOURS/7</p>
+        </div>
+        <div class="fcol">
+        	<img src="wowok.svg" style="width:100px;height:100px;">
+        </div>
+        
+    </footer>
+</body>
+<script>
+    var rot1=document.querySelector(".rot1")
+    var rot2=document.querySelector(".rot2")
+    var hide=document.querySelector(".hide")
+    var nav="closed"
+    function toggle1() {
+        if(nav=="closed"){
+            document.getElementById('sidemenu2').style.width='100%';
+            hide.style.display="none";
+            rot1.classList.add("rot1add")
+            rot2.classList.add("rot2add")
+            nav="open"
+        }
+        else{
+            document.getElementById('sidemenu2').style.width='0';
+            rot1.classList.remove("rot1add")
+            rot2.classList.remove("rot2add")
+            rot1.classList.add("rot1del")
+            rot2.classList.add("rot2del")
+            setTimeout(()=>{
+                hide.style.display="block"
+                rot1.classList.remove("rot1del")
+                rot2.classList.remove("rot2del")
+                
+            },500)
+            nav="closed"
+        }
+    }
+    function send(e){
+        e.preventDefault()
+        var name=document.querySelector("#name").innerHTML
+        var email=document.querySelector("#email").innerHTML
+        var message=document.querySelector("#message").innerHTML
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("resp").innerHTML = this.responseText;
+            }
+            else if (this.readyState == 4 && this.status == 500) {
+                document.getElementById("resp").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("POST", "send.php", true);
+        xhttp.send();
+    }
+</script>
+
+</html>
