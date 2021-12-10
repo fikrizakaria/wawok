@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WA'WOK</title>
+	<title>FIK</title>
     <link rel="shortcut icon" href="wowok.svg">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
