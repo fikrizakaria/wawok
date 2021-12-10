@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FIK</title>
+	<title>WA'WOK</title>
     <link rel="shortcut icon" href="wowok.svg">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -52,7 +52,7 @@
 		<source src="video3.mp4" type="video/mp4">
 	</video>
 	<div class="div4">
-		<h1 ><span id="wok">Wa'<span style="color:white">Wok</span> </span> <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp ASIAN <span style="color:#AD0000;">&nbsp CUISINE</span></h1>
+		<h1 ><span id="wok">FIK<span style="color:white">RI</span> </span> <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp ASIAN <span style="color:#AD0000;">&nbsp CUISINE</span></h1>
 	</div>
 	
 	
